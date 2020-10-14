@@ -23,4 +23,7 @@ else
     echo 'Файл не найден или что-то пошло не так :('
 fi
 
+# Delete old files
+
+find ~/RECYCLE -type f -mtime +7 -exec rm -f {} \;
 
