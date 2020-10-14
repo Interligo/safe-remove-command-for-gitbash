@@ -2,3 +2,10 @@
 #
 # Script to safely delete files
 
+if [ -d ~/RECYCLE ]
+then
+    echo 'Корзина существует.'
+else
+    echo 'Корзина создана.'
+    mkdir ~/RECYCLE
+fi
