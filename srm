@@ -1,11 +1,26 @@
 #!/bin/bash
-#
-# Script to safely delete files
+
+# Recycle existence checking
 
 if [ -d ~/RECYCLE ]
 then
-    echo 'Корзина существует.'
+    echo 'Корзина обнаружена.'
 else
     echo 'Корзина создана.'
     mkdir ~/RECYCLE
 fi
+
+# File compression and removing file into recycle
+
+if [ -e $1 ]
+then
+    echo $1 'найден.'
+    gzip $1
+    echo $1 'успешно сжат.'
+    mv $1'.gz' ~/RECYCLE
+    echo 'Файл перемещен в корзину.'
+else
+    echo 'Файл не найден или что-то пошло не так :('
+fi
+
+
