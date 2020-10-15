@@ -6,8 +6,8 @@ if [ -d ~/RECYCLE ]
 then
     echo 'Корзина обнаружена.'
 else
-    echo 'Корзина создана.'
     mkdir ~/RECYCLE
+    echo 'Корзина создана.'    
 fi
 
 # File compression and removing file into recycle
