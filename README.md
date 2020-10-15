@@ -1,6 +1,6 @@
 # Safe remove (srm)
 
-> Thanks @dshubenok for help. Without him this ~~great~~ (not) script will never be finished.
+> Thanks @dshubenok for help. Without him this ~~great~~ script will never be finished.
 
 ### What is this:
 
@@ -12,13 +12,13 @@ This script will compress the file and then remove it into recycle bin (if recyc
 
 ### Installation:
 
-0. Create new directory 'bin' on your home page (using 'mkdir ~/bin').
-0. Create new file '.bush_profile' (using "touch ~/.bash_profile") or change it if it's already exist. 
-0. Complete file '.bash_profile' by the text 'export PATH="${PATH}:~/bin"'.
-0. Write 'source ~/.bash_profile' in command line.
+0. Create new directory 'bin' on your home page (using `mkdir ~/bin`).
+0. Create new file '.bash_profile' (using `touch ~/.bash_profile`) or change it if it's already exist. 
+0. Complete file '.bash_profile' by the text `export PATH="${PATH}:~/bin"`.
+0. Write `source ~/.bash_profile` in command line.
 0. Paste 'srm' file from this repo to '~/bin'. 
-0. Write 'chmod +x srm' in command line.
+0. Write `chmod +x srm` in command line.
 
 ### Using:
 
-You should write 'srm <filename>', where <filename> is the name of the file you want to delete.
+You should write `srm <filename>`, where <filename> is the name of the file you want to delete.
