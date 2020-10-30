@@ -1,4 +1,5 @@
 #!/bin/bash 
+
 # SRM installation script
 
 mkdir -p ~/bin
