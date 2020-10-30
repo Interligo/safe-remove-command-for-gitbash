@@ -19,7 +19,7 @@ This script will compress the file and then remove it into recycle bin (if recyc
 0. Paste 'srm' file from this repo to '~/bin'. 
 0. Write `chmod +x srm` in command line.
 
-OR
+#### OR
 
 0. Сlone the repo.
 0. `cd` into project folder.
