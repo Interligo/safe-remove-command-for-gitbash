@@ -1,0 +1,9 @@
+#!/bin/bash 
+# SRM install script
+
+mkdir -p ~/bin
+echo "export PATH=$PATH:~/bin" > ~/.bash_profile
+chmod +x ./srm
+mv ./srm ~/bin
+echo "Скрипт установлен."
+rm -- "$0"
