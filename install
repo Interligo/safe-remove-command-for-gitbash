@@ -1,5 +1,5 @@
 #!/bin/bash 
-# SRM install script
+# SRM installation script
 
 mkdir -p ~/bin
 echo "export PATH=$PATH:~/bin" > ~/.bash_profile
